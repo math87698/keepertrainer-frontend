@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY','-a)9_$ztjk833qgo0^3_ti2qcasbrh845j12*a
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]',
-'keepertrainer-frontend.herokuapp.com', 'keepertrainer.ch']
+'keepertrainer-frontend.herokuapp.com', 'www.keepertrainer.ch']
 
 
 # Application definition
