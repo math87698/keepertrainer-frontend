@@ -16,31 +16,40 @@
 
 <body class="bg-gray-900 font-sans bg-gray-100 leading-normal tracking-normal">
 
-<div class="bg-blue-700 h-48 w-full text-gray-100 shadow-md flex">
-  <img class="h-32 w-32 mx-2 mt-6" src="{% static "img/kt-logo.png" %}" alt="Logo">
-  <p class="text-6xl mt-10 mx-1 font-bold">Keepertrainer</p>
-</div>
-
-<div class="flex">
-  <div class="max-w-md flex p-6 m-6 bg-gray-800 rounded-lg shadow-xl">
-    <div class="flex-shrink-0">
-      <img class="h-32 w-32 object-cover object-center rounded-full" src="{% static "img/matthias-portrait-yb.jpg" %}" alt="Profilbild Matthias Hügli">
-    </div>
-    <div class="ml-6 pt-1">
-      <h4 class="text-xl text-gray-100 leading-tight">Matthias Hügli</h4>
-      <p class="text-base text-gray-400 leading-normal">Torhütertrainer BSC Young Boys</p>
-    </div>
+  <div class="bg-blue-700 h-48 w-full text-gray-100 shadow-md flex">
+    <img class="h-32 w-32 mx-2 mt-6" src="{% static "img/kt-logo.png" %}" alt="Logo">
+    <p class="text-6xl mt-10 mx-1 font-bold hidden sm:block">Keepertrainer</p>
   </div>
 
-  <div class="max-w-6xl flex p-6 m-6 bg-gray-800 rounded-lg shadow-xl">
-    <div class="ml-6 pt-1">
-      <h4 class="text-xl text-gray-100 leading-tight">Über mich</h4>
-      <p class="text-base text-gray-400 leading-normal">Ich bin nach meiner aktiven 2. Liga Karriere wurde ich im 2013 Torhütertrainer</p>
-      <p class="text-base text-gray-400 leading-normal">Meine Grundsätze Spass motivation und Wille</p>
+  <div class="flex">
+    <div class="max-w-full flex p-6 m-6 mx-auto bg-gray-800 rounded-lg lg:w-3/7">
+      <div class="flex-shrink-0">
+        <img class="h-32 w-32 object-cover object-center rounded-full" src="{% static "img/matthias-portrait-yb.jpg" %}" alt="Profilbild Matthias Hügli">
+      </div>
+      <div class="ml-6 pt-1">
+        <h4 class="text-xl text-gray-100 leading-tight">Matthias Hügli</h4>
+        <p class="text-base text-gray-400 leading-normal">Torhütertrainer BSC Young Boys</p>
+      </div>
     </div>
-  </div>
+
+    <div class="max-w-6xl flex mx-auto p-6 m-6 bg-gray-800 rounded-lg hidden xl:block lg:w-4/7">
+      <div class="ml-6 pt-1">
+        <h4 class="text-xl text-gray-100 leading-tight">Über mich</h4></br>
+        <p class="text-base text-gray-400 leading-normal">Seit 2013 Torhütertrainer im Nachwuchs bei FC Kirchberg, FC Köniz, BSC Young Boys</p></br>
+        <p class="text-base text-gray-400 leading-normal">Eigene Fussballkarriere in der 2. Liga seit 2014 beendet</p></br>
+        <p class="text-base text-gray-400 leading-normal">Meine Grundsätze sind Spass am Torhütersein und Wille neues zu erlernen</p>
+      </div>
+    </div>
 </div>
 
+
+<div class="max-w-md mx-auto flex p-6 m-6 bg-gray-800 rounded-lg xl:hidden">
+  <div class="ml-6 pt-1">
+    <h4 class="text-xl text-gray-100 leading-tight">Über mich</h4></br>
+    <p class="text-base text-gray-400 leading-normal">Seit 2013 Torhütertrainer im Nachwuchs bei FC Kirchberg, FC Köniz, BSC Young Boys</p></br>
+    <p class="text-base text-gray-400 leading-normal">Eigene Fussballkarriere in der 2. Liga seit 2014 beendet</p></br>
+    <p class="text-base text-gray-400 leading-normal">Meine Grundsätze sind Spass am Torhütersein und Wille neues zu erlernen</p>
+  </div>
 
 
 </body>
