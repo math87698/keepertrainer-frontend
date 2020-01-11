@@ -1,1 +1,1 @@
-web: gunicorn keepertrainer-frontend.wsgi
+web: gunicorn keepertrainer.wsgi
